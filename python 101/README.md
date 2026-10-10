@@ -22,7 +22,7 @@ My Python learning journey and practice exercises.
 - `else`
 - Logical Operators
 
-## 📈 Progress
+## Progress
 
 - [x] Day 1 — Python Basics
 - [x] Day 2 — Data Structures
