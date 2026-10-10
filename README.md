@@ -1,10 +1,10 @@
-# Learning Journey 
+# Learning Journey 🚀
 
 My learning journey in Computer Science, Data Science, and Programming.
 
-## Courses
+## 📚 Courses
 
-- [In progress] Python Course 101
+- 🔄 Python Course 101
 - [ ] Python Course 102
 - [ ] Python Course 103
 - [ ] Python Course 104
@@ -17,6 +17,6 @@ My learning journey in Computer Science, Data Science, and Programming.
 - [ ] Statistics
 - [ ] Machine Learning
 
-## Goal
+## 🎯 Goal
 
 Build strong programming and Data Science skills through practice and projects.
