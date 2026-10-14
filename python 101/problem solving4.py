@@ -413,3 +413,47 @@ if ageLast >= 18 and has_idLast:
     print("allowed")
 else:
     print ("not allowed")
+
+print("Q26------------------------------------------------------------------------------------------------------------")
+
+
+#We’re going to do exactly 3 questions, from easy → Medium for while loop
+#I won’t give you hints inside the questions.
+#Q1 — Easy
+#Write a Python program that:
+#* Starts number at 1
+#* Uses a while loop
+#* Prints the numbers from 1 to 5
+#* Increases number by 1 each time.
+
+number11 = 0
+while number11 <= 4:
+    number11 += 1
+    print(number11)
+
+print("Q27------------------------------------------------------------------------------------------------------------")
+
+#Q2 — Easy → Medium
+#Write a Python program that:
+#* Starts number at 10
+#* Uses a while loop
+#* Prints the numbers from 10 down to 1
+#* Decreases number by 1 each time.
+number12 = 11
+while number12 > 1:
+    number12 -=1
+    print(number12)
+
+print("Q28------------------------------------------------------------------------------------------------------------")
+#Q3 — Medium
+#Write a Python program that:
+#* Starts number at 1
+#* Uses a while loop
+#* Adds each number from 1 to 5 to a variable called total
+#* Prints the final total after the loop.
+number28 = 1
+total10 = 0 
+while number28 <= 5:
+    total10 +=number28 
+    number28 += 1
+print(total10)
