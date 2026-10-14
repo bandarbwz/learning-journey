@@ -345,3 +345,71 @@ print("Q21----------------------------------------------------------------------
 #* Prints the variable each time
 #* Increases the variable by 1
 #* Stops when the variable reaches 6.
+v = 1
+while v <= 6 :
+    print (v)
+    v+=1
+
+print("Q22------------------------------------------------------------------------------------------------------------")
+#Q22
+#Write a Python program that:
+#* Starts with total = 0
+#* Uses a while loop
+#* Adds the numbers from 1 to 5 to total
+#* Prints the final total.
+
+total = 0
+number = 1
+while number <= 5:
+    total += number
+    number += 1
+print(total)
+
+print("Q23------------------------------------------------------------------------------------------------------------")
+#Q23
+#Write a Python program that:
+#* Asks the user to enter their age
+#* Converts the input to an integer
+#* Checks if the age is 18 or older
+#* Prints "Adult" if true
+#* Otherwise, prints "Minor"
+
+age = input("enter your age: ")
+age1 = int(age)
+if age1 >= 18 :
+    print("adult")
+else:
+    print("minor")
+
+print("Q24------------------------------------------------------------------------------------------------------------")
+#Q24
+#Write a Python program that:
+#* Creates a variable called status with the value None
+#* Checks whether status is None
+#* Prints "No status" if it is None
+#* Otherwise, prints "Status available"
+
+status = None 
+print(type(status))
+if status == None:
+    print ("no status ")
+else:
+    print("status available")
+
+
+print("Q25------------------------------------------------------------------------------------------------------------")
+#Q25
+#Write a Python program that:
+#* Creates age = 20
+#* Creates has_id = True
+#* Checks if the person is 18 or older AND has an ID
+#* Prints "Allowed" if both conditions are true
+#* Otherwise, prints "Not allowed"
+
+ageLast = 20 
+has_idLast = True 
+
+if ageLast >= 18 and has_idLast:
+    print("allowed")
+else:
+    print ("not allowed")
