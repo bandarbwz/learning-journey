@@ -179,3 +179,169 @@ elif score11 >= 70 :
 else:
    print ("needs improvement")
 
+
+print("Q12#------------------------------------------------------------------------------------------------------------")
+#Q12/25
+#Write a Python program that:
+#* Creates age = 23
+#* Creates has_id = True
+#* Checks if the person is 18 or older AND has an ID
+#* Prints "Allowed" if both conditions are true
+#* Otherwise, prints "Not Allowed"
+age12 = 23
+has_id = True 
+
+if age12 >= 18 and has_id:
+    print("allowed")
+else:
+    print("not allowed")
+
+
+print("Q13#------------------------------------------------------------------------------------------------------------")
+#Q13/25
+#Write a Python program that:
+#* Creates a list called students containing "Ali", "Ahmed", and "Sara"
+#* Prints the list
+#* Prints the first student
+#* Changes "Ahmed" to "Omar"
+#* Prints the updated list
+
+students13 = ["ali","ahmad","sara"]
+print (students13)
+print (students13 [0])
+students13 [1] = "omar"
+print(students13)
+
+print("Q14#------------------------------------------------------------------------------------------------------------")
+#Q14/25
+#Write a Python program that:
+#* Creates a list called fruits containing "Apple" and "Banana"
+#* Adds "Orange" to the end of the list
+#* Adds "Mango" at the beginning of the list
+#* Prints the final list
+
+fruits = ["apple","banana"]
+fruits.append("orange")
+fruits.insert(0,"mango")
+print(fruits)
+
+print("Q15------------------------------------------------------------------------------------------------------------")
+#Q15/25
+#Write a Python program that:
+#* Creates a list called tasks containing "Study", "Exercise", "Shopping", and "Gaming"
+#* Removes "Shopping" from the list
+#* Prints the list
+#* Clears the entire list
+#* Prints the list again
+
+tasks = ["study", "Exercise","shopping","gaming"]
+tasks.remove("shopping")
+print(tasks)
+tasks.clear()
+print(tasks)
+
+print("Q16------------------------------------------------------------------------------------------------------------")
+#Q16/25
+#Write a Python program that:
+#* Creates a tuple called colors containing "Red", "Green", and "Blue"
+#* Prints the tuple
+#* Prints the first element of the tuple
+#* Prints the last element of the tuple
+#* Prints the type of colors using type()
+
+colors = ("red","green","blue")
+print(colors)
+print(colors [0])
+print(colors [2])
+print(type(colors))
+
+print("Q17------------------------------------------------------------------------------------------------------------")
+#Q17/25
+#Write a Python program that:
+#* Creates a dictionary called student
+#* Adds:
+#* "name" → "Ali"
+#* "age" → 23
+#* "score" → 85
+#* Prints the dictionary
+#* Prints the student’s name using the dictionary
+#* Changes the student’s score to 90
+#* Adds "status" → "Passed"
+#* Prints the updated dictionary
+
+student17 = {
+    "name":"ali",
+    "age":23,
+    "score":85
+}
+print (student17)
+print (student17 ["name"])
+student17 ["score"] = 90
+student17 ["status"]="passed"
+print (student17)
+
+print("Q18------------------------------------------------------------------------------------------------------------")
+#Q18/25
+#Write a Python program that:
+#* Creates a dictionary called student with:
+#* "name" → "Ali"
+#* "age" → 23
+#* "score" → 90
+#* "status" → "Passed"
+#* Prints all the dictionary keys using keys()
+#* Prints all the dictionary values using values()
+#* Deletes the "status" key using del
+#* Prints the updated dictionary
+
+print (student17.keys())
+print(student17.values())
+print(student17)
+del student17 ["status"]
+print(student17)
+
+print("Q19------------------------------------------------------------------------------------------------------------")
+#Q19/25
+#Write a Python program that:
+#* Creates a list called numbers containing 10, 20, 30, and 40
+#* Prints the type of numbers
+#* Uses a for loop to print every number in the list.
+
+numbers = [10,20,30,40]
+print(type(numbers))
+for nums in numbers:
+    print(nums)
+
+
+print("Q20------------------------------------------------------------------------------------------------------------")
+#Q20/25
+#Write a Python program that:
+#* Uses range() to print the numbers from 1 to 5
+#* Then uses a for loop with range() to calculate the sum of the numbers from 1 to 5
+#* Prints the final sum.
+
+total = 0 
+for n in range(1,6):
+    total +=n
+print(total)
+
+print("Q20R------------------------------------------------------------------------------------------------------------")
+#Q20-C
+#write a Python program that:
+#* Uses range() to go from 5 to 10
+#* Uses a for loop to calculate the sum of all the numbers
+#* Prints the final sum.
+
+result = 0
+for r in range(5,11):
+    result += r
+
+print(result)
+
+print("Q21------------------------------------------------------------------------------------------------------------")
+#Q21
+#Write a Python program that:
+#* Creates a while loop
+#* Starts a variable at 1
+#* Prints the variable each time
+#* Increases the variable by 1
+#* Stops when the variable reaches 6.
