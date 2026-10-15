@@ -457,3 +457,57 @@ while number28 <= 5:
     total10 +=number28 
     number28 += 1
 print(total10)
+
+
+print("Q29------------------------------------------------------------------------------------------------------------")
+#Real-Life while Question
+#Imagine you are at a shop and you have RM50.
+#Write a Python program that:
+#* Starts money at 50
+#* Uses a while loop
+#* Each time, you spend RM10
+#* Continue spending while you still have enough money
+#* Print how much money you have after each purchase
+
+startMoney = 50 
+spend = 10
+
+while startMoney >= 10:
+    startMoney -= spend
+    print(startMoney)
+
+
+print("Q30------------------------------------------------------------------------------------------------------------")
+#Q30 — Real-Life while Practice
+#Imagine you have 5 tasks to complete today.
+#Write a Python program that:
+#* Starts tasks at 5
+#* Uses a while loop
+#* Completes 1 task each time
+#* Decreases tasks by 1 after completing a task
+#* Prints how many tasks are left after each task
+#* Stops when there are no tasks left
+
+task = 5
+
+while task >= 1:
+    task -= 1
+    print(task)
+
+
+print("Q31------------------------------------------------------------------------------------------------------------")
+#Real-Life while Practice
+#Imagine you’re saving money for a laptop.
+#You currently have RM0, and you add RM100 to your savings every month.
+#Write a Python program that:
+#* Starts savings at 0
+#* Uses a while loop
+#* Adds RM100 every month
+#* Stops when your savings reach RM500
+#* Prints your savings after each month
+
+have = 0
+adds = 100 
+while have < 500 :
+    have += adds
+    print(have)
