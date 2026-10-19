@@ -132,3 +132,91 @@ print("Q7-------------------------------------------------------")
 #4. If the total is 80 or higher, print Grade B
 #5. If the total is 70 or higher, print Grade C
 #6. Otherwise, print Fail
+
+assignment = 25
+midterm = 30
+final = 35
+totalMark = 100 
+StudentMark = assignment + midterm + final
+print ("total Student marks = ",StudentMark)
+if StudentMark >= 90:
+    print ("Grade : A")
+elif StudentMark >= 80 :
+    print("Grade: B")
+elif StudentMark >= 70:
+    print("Grade: C")
+else:
+    print("Fail")
+
+
+print("Q8-------------------------------------------------------")
+#Q8 / 30 — Easy → Medium — Bank Account 
+#You’re making a simple bank account program.
+#A customer has:
+#* balance = 500
+#* They withdraw 150
+#Write a program that:
+#1. Stores the balance and withdrawal amount.
+#2. Checks if the customer has enough money.
+#3. If they have enough:
+#* Subtract the withdrawal from the balance using a short-form assignment operator.
+#* Print the new balance.
+#* Print Withdrawal successful
+#4. Otherwise:* Print Insufficient balance
+
+balance = 500 
+withdraw = 150 
+if balance >= withdraw :
+    print("wait...")
+    balance -= withdraw 
+    print("Withdrawal successful")
+    print("balance:",balance)
+else:
+    print("Insufficient balance")
+
+
+print("Q9-------------------------------------------------------")
+#Q9 / 30 — Easy → Medium — Food Order 
+#You’re making a small food-order system.
+#A customer orders:
+#* burger = RM18
+#* fries = RM8
+#* drink = RM5
+#They order 2 burgers, 1 fries, and 2 drinks.
+#The customer pays RM70.
+#Write a program that:
+#1. Creates variables for the prices.
+#2. Creates variables for the quantities.
+#3. Calculates the total order price.
+#4. Prints the total.
+#5. Calculates the remaining money after payment.
+#6. If the remaining money is greater than or equal to 0, print: Order paid successfully
+#7. Otherwise, print:Not enough money
+
+burger = 18
+fries = 8
+drink = 5
+customerPays = 70 
+totalPriceOrder = burger * 2 + fries + drink * 2
+print ("total price order :",totalPriceOrder)
+remainingMoney = customerPays - totalPriceOrder 
+if remainingMoney >= 0 :
+    print("paid successfully | ","remaining Money: ",remainingMoney)
+else:
+    print("Not enough money")
+
+
+print("Q10-------------------------------------------------------")
+#Q10 / 30 — Easy → Medium — Student Attendance 
+#A university system needs to check whether a student can take an exam.
+#The student has:
+#* classes = 20
+#* attended = 17
+#The university requires the student to attend at least 80% of the classes.
+#Write a program that:
+#1. Stores the total number of classes.
+#2. Stores the number of classes attended.
+#3. Calculates the attendance percentage.
+#4. Prints the attendance percentage.
+#5. If the attendance is 80% or higher, print: Student can take the exam
+#6. Otherwise, print: Student cannot take the exam
